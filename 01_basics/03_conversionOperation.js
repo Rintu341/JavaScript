@@ -32,5 +32,29 @@ let number = 33
 
 let valueInString = String(number)
 
-console.log(typeof valueInString);
-console.log(valueInString);
+// console.log(typeof valueInString);
+// console.log(valueInString);
+
+// ****************************** Operations *******************************//
+
+// console.log(2-2);
+// console.log(2+2);
+// console.log(2*2);
+// console.log(2**2); //  2 to the power 2
+// console.log(2%2);
+// console.log(2/2);
+
+let str1 = "sujan"
+let str2 = " mandal"
+
+let str3 = str1 + str2
+// console.log(str3);
+
+// console.log("1" + 2);
+// console.log(1 + "2");
+// console.log(1 + "2" + "2");
+// console.log(1 + 2 + "2");
+
+let gameCounter = 100
+// console.log(++gameCounter);
+console.log(gameCounter++);
