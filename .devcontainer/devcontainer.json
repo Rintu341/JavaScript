@@ -22,7 +22,9 @@
 				"vscode-icons-team.vscode-icons",
 				"wayou.vscode-todo-highlight",
 				"akamud.vscode-theme-onedark",
-				"PKief.material-icon-theme"
+				"PKief.material-icon-theme",
+				"ms-vscode.live-server",
+				"ms-vscode.live-server"
 			],
 			"settings": {
 				"editor.fontSize": 14,
