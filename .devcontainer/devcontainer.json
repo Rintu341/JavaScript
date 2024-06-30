@@ -24,7 +24,8 @@
 				"akamud.vscode-theme-onedark",
 				"PKief.material-icon-theme",
 				"ms-vscode.live-server",
-				"ms-vscode.live-server"
+				"ms-vscode.live-server",
+				"file-icons.file-icons"
 			],
 			"settings": {
 				"editor.fontSize": 14,
