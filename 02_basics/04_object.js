@@ -52,9 +52,23 @@ const user =[
 // console.log(user[1].email)
 
 // console.log(tinderUser);
-console.log(Object.keys(tinderUser)) // convert object to array of keys
-console.log(Object.values(tinderUser))  // convert object to array of values
-console.log(Object.entries(tinderUser)) // property with there value
+// console.log(Object.keys(tinderUser)) // convert object to array of keys
+// console.log(Object.values(tinderUser))  // convert object to array of values
+// console.log(Object.entries(tinderUser)) // property with there value
 
 
-console.log(tinderUser.hasOwnProperty('id'))
+// console.log(tinderUser.hasOwnProperty('id'))
+
+// de-structure 
+const course = {
+    course_name : "JS course",
+    price: 999,
+    course_instructor: "hitesh"
+}
+
+// course .course_instructor
+
+// const {course_instructor} = course
+const {course_instructor : instructor} = course
+
+console.log(instructor)
