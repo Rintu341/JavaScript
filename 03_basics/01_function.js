@@ -37,8 +37,53 @@ function loginUserMessage(username)
     return  number * factorial(number - 1);
 }
 
-console.log(factorial(6))
-console.log(factorial(""))
-console.log(factorial(-34))
+// console.log(factorial(6))
+// console.log(factorial(""))
+// console.log(factorial(-34))
 
-  
+// +++++++++++++++++++++++++ function with Objects
+
+// function fun(num)
+// {
+//     return num
+// }
+
+// console.log(fun(7))
+
+// function take multiple objects
+function fun(...num)
+{
+    return num    // return an array
+}
+
+console.log(fun(678,100,500,300))
+
+User = {
+    username: "Sujan",
+    price: 399
+}
+
+function handleObject(anyObject)
+{   
+    if(anyObject.username &&  anyObject.price){ // for type check 
+    console.log(`username id ${anyObject.username} and price is ${anyObject.price}`)
+    }
+}
+// handleObject(User)
+handleObject({
+    username: "Susama",
+    price: Infinity
+})
+
+
+// function with Arrays
+
+const myNewArray = new Array(200,400,100,600)
+
+function returnAnElement(myArr)
+{
+    return myArr[0]
+}
+
+// console.log(returnAnElement(myNewArray))
+console.log(returnAnElement([200,100,400,600]))
