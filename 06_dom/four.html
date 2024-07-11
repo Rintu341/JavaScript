@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chai aur code</title>
+</head>
+<body style="background-color: #313131; color: white;">
+    <ul class = "language">
+        <li>javaScript</li>
+    </ul>
+</body>
+<script>
+    function addLanguage(langName) {
+        const newLi = document.createElement('li')
+        newLi.innerHTML = `${langName}`
+        document.querySelector('.language').appendChild(newLi)
+    }
+    addLanguage('python')
+
+    function addOptiLangusge(langName) {
+        const li = document.createElement('li')
+        li.appendChild(document.createTextNode(langName))
+        document.querySelector('.language').appendChild(li)
+    }
+    addOptiLangusge('kotlin')
+
+    // 1. Edit
+    const secondLang = document.querySelector('li:nth-child(2)')
+    // const newLi = document.createElement('li')
+    // newLi.textContent = "Mojo"
+    // secondLang.replaceWith(newLi)
+
+    // 2. Edit
+    secondLang.outerHTML = '<li>GO</li>'
+    
+    // 1 and 2 both the approch are do the same thing
+
+    // change first item
+
+    const firstLang = document.querySelector('li:first-child')
+    firstLang.outerHTML = '<li>cpp</li>'
+
+    //remove
+    const lastLang = document.querySelector('li:last-child')
+    lastLang.remove()
+</script>
+</html>
